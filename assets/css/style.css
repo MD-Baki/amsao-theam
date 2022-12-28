@@ -170,3 +170,27 @@ header {
     padding: 15px 0;
 }
 /* ||Price Css End|| */
+
+/* About Css Start */
+#about {
+    padding: 200px 0;
+}
+.about-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-text h3 {
+    font-size: 50px;
+    line-height: 61px;
+    color: var(--primary-color);
+    padding-bottom: 40px;
+}
+.about-text p {
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--regular-text);
+}
+/* ||About Css End|| */
