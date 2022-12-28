@@ -118,3 +118,55 @@ header {
     text-align: right;
 }
 /* ||Banner Css End|| */
+
+/* Price Css Start */
+#price {
+    background: var(--secondary-color);
+    padding: 40px;
+}
+
+.price-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    background: var(--focus-color);
+    padding: 20px 40px;
+    color: white;
+    border-radius: 29px;
+}
+
+.price-item h4 {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.priceing-part {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.part-2 {
+    margin-top: 40px;
+}
+
+.priceing-part a {
+    color: var(--primary-color);
+    background: white;
+    padding: 4px 25px;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+.price-btn {
+    display: block;
+    background-color: white;
+    color: var(--primary-color);
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px 0;
+}
+/* ||Price Css End|| */
