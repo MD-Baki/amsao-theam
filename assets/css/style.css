@@ -175,6 +175,7 @@ header {
 #about {
     padding: 200px 0;
 }
+
 .about-sec {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -182,15 +183,43 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+
 .about-text h3 {
     font-size: 50px;
     line-height: 61px;
     color: var(--primary-color);
     padding-bottom: 40px;
 }
+
 .about-text p {
     font-size: 20px;
     line-height: 30px;
     color: var(--regular-text);
 }
 /* ||About Css End|| */
+
+/* Brand Css Start */
+#brand {
+    background: var(--primary-color);
+    padding: 10px 0;
+}
+
+#brand h4 {
+    font-size: 50px;
+    line-height: 61px;
+    color: white;
+    text-align: center;
+}
+
+.brand-logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.brand-logo .brand-item {
+    text-align: center;
+}
+/* ||Brand Css End|| */
